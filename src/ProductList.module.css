@@ -1,0 +1,88 @@
+.productList {
+  padding: 85px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.productList input[type="number"] {
+  width: 50px;
+  border: 1px solid #000;
+  margin-right: 5px;
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+.filterContainer {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  height: 35px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.colorFilter,
+.categoryFilter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  border: 1px solid #000;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.colorFilter label,
+.categoryFilter label {
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.colorFilter input[type="checkbox"],
+.categoryFilter input[type="checkbox"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin-right: 6px;
+}
+
+.sortContainer {
+  margin-bottom: 20px;
+}
+
+.sortContainer button {
+  height: 40px;
+  font-size: 16px;
+  padding: 8px 20px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.productItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .productItems {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .productList {
+    padding: 25px;
+  }
+
+  input[type="text"] {
+    height: 30px;
+  }
+
+  .sortContainer button {
+    height: 30px;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}
