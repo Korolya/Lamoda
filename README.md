@@ -13,5 +13,5 @@
 - По категории
 - По цене
 
-## Code Sandbox
+## Work example 
 <img width="1053" alt="proekt" src="https://github.com/Korolya/Lamoda/assets/153447482/6710d4f9-9822-4ca8-b41a-02ea84494e0e">
